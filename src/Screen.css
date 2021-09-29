@@ -1,0 +1,97 @@
+.screen {
+  margin: 0;
+  position: sticky;
+}
+
+.screen > input {
+  position: relative;
+  outline: none;
+  border-bottom: 30px;
+
+  border-radius: 50px;
+  color: whitesmoke;
+}
+
+.screen_text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #b7ddec;
+  font-style: italic;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  border: none;
+  font-weight: 600;
+}
+
+.screen_text :hover {
+  cursor: pointer;
+}
+
+.screen__passage {
+  color: #1f51ff;
+  font-family: "Stick No Bills", sans-serif;
+}
+.screen__passage:hover {
+  cursor: pointer;
+  box-shadow: 12px 12px rgba(73, 73, 243, 0.2),
+    1em 0 0.4em rgba(48, 95, 114, 0.5);
+}
+
+.screen__answer {
+  margin-bottom: 40px;
+  color: #ff10f0;
+
+  font-family: "Stick No Bills", sans-serif;
+}
+
+.screen__answer > p {
+  margin: 0;
+}
+.screen__question {
+  color: #00f79a;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Stick No Bills", sans-serif;
+}
+
+.screen__question :hover {
+  cursor: pointer;
+}
+
+.screen__answer {
+  font-size: 20px;
+  margin: 0;
+}
+.screen__input {
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.screen__answers {
+  font-size: 12px;
+}
+.screen__answers {
+  margin-top: 0;
+}
+/*
+.screen__start {
+}
+
+.screen__loader {
+}
+
+.start__passage {
+  display: flex;
+  justify-content: center;
+
+  margin-left: 70px;
+  color: azure;
+}
+
+.start__passage > textarea {
+  position: static;
+  padding: 40px;
+}
+*/
